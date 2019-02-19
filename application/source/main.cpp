@@ -3,15 +3,16 @@
 #include <stdlib.h>
 
 
-#include <definitions.h>
+#include <XmlWrapper.h>
 #include <printer.h>
+
 
 using namespace std;
 
 int main(void)
 {
-	string myMessageToPrint =  "My Message: " + std::to_string(MY_MESSSAGE_ID) + "\n";
+	string myMessageToPrint =  "My Message: Reading File\n";
 	printToScreen(myMessageToPrint);
 
-	return 0;
+	writeXmlDocument();
 }

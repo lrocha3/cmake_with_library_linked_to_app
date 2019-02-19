@@ -15,3 +15,4 @@ add_subdirectory(application)
 
 #Libraries
 add_subdirectory(printer)
+add_subdirectory(tinyxml)

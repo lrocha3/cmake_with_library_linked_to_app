@@ -1,0 +1,11 @@
+C:/Users/Luigi/Downloads/cmake_with_library_linked_to_app/build/CMakeFiles/edit_cache.dir
+C:/Users/Luigi/Downloads/cmake_with_library_linked_to_app/build/CMakeFiles/rebuild_cache.dir
+C:/Users/Luigi/Downloads/cmake_with_library_linked_to_app/build/application/CMakeFiles/MyApplication.dir
+C:/Users/Luigi/Downloads/cmake_with_library_linked_to_app/build/application/CMakeFiles/edit_cache.dir
+C:/Users/Luigi/Downloads/cmake_with_library_linked_to_app/build/application/CMakeFiles/rebuild_cache.dir
+C:/Users/Luigi/Downloads/cmake_with_library_linked_to_app/build/printer/CMakeFiles/PrinterLibrary.dir
+C:/Users/Luigi/Downloads/cmake_with_library_linked_to_app/build/printer/CMakeFiles/edit_cache.dir
+C:/Users/Luigi/Downloads/cmake_with_library_linked_to_app/build/printer/CMakeFiles/rebuild_cache.dir
+C:/Users/Luigi/Downloads/cmake_with_library_linked_to_app/build/tinyxml/CMakeFiles/TinyXMLLibrary.dir
+C:/Users/Luigi/Downloads/cmake_with_library_linked_to_app/build/tinyxml/CMakeFiles/edit_cache.dir
+C:/Users/Luigi/Downloads/cmake_with_library_linked_to_app/build/tinyxml/CMakeFiles/rebuild_cache.dir

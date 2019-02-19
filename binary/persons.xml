@@ -1,0 +1,10 @@
+<Persons>
+	<Person ID="1">
+		<name>Zhou Xingxing</name>
+		<age>20</age>
+	</Person>
+	<Person ID="2">
+		<name>Bai Jingjing</name>
+		<age>18</age>
+	</Person>
+</Persons>

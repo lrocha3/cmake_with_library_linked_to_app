@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libTinyXMLLibrary.a  CMakeFiles/TinyXMLLibrary.dir/source/tinystr.cpp.obj CMakeFiles/TinyXMLLibrary.dir/source/tinyxml.cpp.obj CMakeFiles/TinyXMLLibrary.dir/source/tinyxmlerror.cpp.obj CMakeFiles/TinyXMLLibrary.dir/source/tinyxmlparser.cpp.obj
+C:\MinGW\bin\ranlib.exe libTinyXMLLibrary.a
