@@ -6,3 +6,5 @@ mkdir build
 cd build
 cmake .. -G "MinGW Makefiles"
 mingw32-make
+
+To create a .gitignore in windows do: cmd --> copy NUL .gitignore
