@@ -11,13 +11,8 @@
 
 
 #Try to find all programs needed
-FIND_PROGRAM( GCOV_PATH gcov )
 FIND_PROGRAM( LCOV_PATH lcov )
 FIND_PROGRAM( GENHTML_PATH genhtml )
-
-IF(NOT GCOV_PATH)
-	MESSAGE(FATAL_ERROR "gcov not found! Aborting...")
-ENDIF()
 
 IF(NOT LCOV_PATH)
 	MESSAGE(FATAL_ERROR "lcov not found! Aborting...")
@@ -42,7 +37,6 @@ FUNCTION(COVERAGE_TARGET TARGET_NAME TEST_RUNNER OUTPUT_NAME)
 		# Run tests
 		COMMAND ${TEST_RUNNER} ${ARGV3}
 
-		MESSAGE 
 		# Capturing lcov counters and generating report
 		COMMAND ${LCOV_PATH} --directory . --capture  --output-file ${OUTPUT_NAME}.info
 		COMMAND ${LCOV_PATH} --remove ${OUTPUT_NAME}.info '*tests/*' '/usr/*' --output-file ${OUTPUT_NAME}_filteted.info
