@@ -12,5 +12,6 @@
 using namespace std;
 
 void printToScreen(string stringToPrint);
+void printToWorld(string stringToPrint);
 
 #endif /* _PRINTER_DEFINITIONS_H_ */
