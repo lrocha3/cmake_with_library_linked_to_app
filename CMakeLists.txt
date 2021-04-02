@@ -6,7 +6,7 @@ option(CodeCoverage "CodeCoverage" OFF)
 
 if (CodeCoverage MATCHES ON)
 	set(COVERAGE_FLAGS "-g -O0 --coverage -fprofile-arcs -ftest-coverage")
-	set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake/modules/)
+	set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake/modules/) 
 else()
 	set(COVERAGE_FLAGS "")
 endif()
