@@ -19,7 +19,7 @@ would be appreciated but is not required.
 must not be misrepresented as being the original software.
 
 3. This notice may not be removed or altered from any source
-distribution.
+distribution. 
 */
 
 #include "tinyxml.h"
